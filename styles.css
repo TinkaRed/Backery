@@ -1,0 +1,69 @@
+
+/* створюємо загальну перев=мінну і кладемо колір 
+який використовується найчастіше. потім просто додаємо ці перемінні */
+:root 
+{
+    --primary-brand-color: #31261A;
+    --brand-color: #819B57;
+    --brand-color2: #FAF4EA;
+}
+
+body
+{
+    color: var(--primary-brand-color);
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.button
+{
+    border-radius: 8px;
+    border: 2px solid var(--brand-color); 
+    background: var(--brand-color);
+    cursor: pointer;
+}
+
+.button:hover 
+{
+    color: #465929;
+    background-color: transparent;
+}
+
+.header_link
+{
+    color: var(--brand-color2);
+}
+
+.header_link:hover
+{
+    color: var(--brand-color);
+}
+
+.hero_title
+{
+   color: var(--brand-color2);
+}
+
+ .hero_title .accent
+{
+    color: var(--brand-color);
+}
+
+.advantages_list
+{
+    color: var(--brand-color2);
+    background-color: var(--brand-color);
+}
+
+.section_title
+{
+    color: var(--primary-brand-color);
+}
+
+.section_title .accent2
+{
+ color: #465929;
+}
