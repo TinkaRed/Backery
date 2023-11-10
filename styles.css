@@ -1,3 +1,7 @@
+/* text-decoration: text-transform: text-align - покривають майже 90% потреб тексту
+ white-space: nowrap; - не дає переноса строки якщо треба все в одну лінію */
+
+
 
 /* створюємо загальну перев=мінну і кладемо колір 
 який використовується найчастіше. потім просто додаємо ці перемінні */
@@ -7,6 +11,7 @@
     --brand-color: #819B57;
     --brand-color2: #FAF4EA;
     --btrand-color3: #465929;
+    white-space: ;
 }
 
 body
@@ -36,6 +41,8 @@ ul
 .header_link
 {
     color: var(--brand-color2);
+    text-decoration: none; 
+
 }
 
 .header_link:hover
@@ -46,11 +53,14 @@ ul
 .hero_title
 {
    color: var(--brand-color2);
+   font-family: Poppins, sans-serif;
+   text-align: center;
 }
 
  .hero_title .accent
 {
     color: var(--brand-color);
+    font-family: Poppins, sans-serif;
 }
 
 .advantages_list
@@ -67,4 +77,15 @@ ul
 .section_title .accent2
 {
  color: var(--btrand-color3);
+}
+
+.traditions_text_up span
+{
+    color: var(--brand-color);
+    text-transform: uppercase;
+}
+
+.traditions_text_simple span
+{
+    color: var(--brand-color);
 }
