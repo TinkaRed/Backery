@@ -6,6 +6,7 @@
     --primary-brand-color: #31261A;
     --brand-color: #819B57;
     --brand-color2: #FAF4EA;
+    --btrand-color3: #465929;
 }
 
 body
@@ -28,7 +29,7 @@ ul
 
 .button:hover 
 {
-    color: #465929;
+    color: var(--btrand-color3);
     background-color: transparent;
 }
 
@@ -65,5 +66,5 @@ ul
 
 .section_title .accent2
 {
- color: #465929;
+ color: var(--btrand-color3);
 }
