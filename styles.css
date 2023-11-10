@@ -1,17 +1,56 @@
 /* text-decoration: text-transform: text-align - покривають майже 90% потреб тексту
- white-space: nowrap; - не дає переноса строки якщо треба все в одну лінію */
+ white-space: nowrap; - не дає переноса строки якщо треба все в одну лінію*/
 
+ /* шрифты локальные */
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
+/* poppins-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
-/* створюємо загальну перев=мінну і кладемо колір 
+/* poppins-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-900 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* створюємо загальну перемінну і кладемо колір 
 який використовується найчастіше. потім просто додаємо ці перемінні */
+
 :root 
 {
     --primary-brand-color: #31261A;
     --brand-color: #819B57;
     --brand-color2: #FAF4EA;
     --btrand-color3: #465929;
-    white-space: ;
 }
 
 body
